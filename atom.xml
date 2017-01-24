@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>零</title>
+  
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://blog.yoccio.pw/"/>
+  <updated>2017-01-24T08:24:50.000Z</updated>
+  <id>http://blog.yoccio.pw/</id>
+  
+  <author>
+    <name>Yucheng Zhao</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>世界 你好</title>
+    <link href="http://blog.yoccio.pw/2017/01/24/hello-world/"/>
+    <id>http://blog.yoccio.pw/2017/01/24/hello-world/</id>
+    <published>2017-01-24T02:53:36.000Z</published>
+    <updated>2017-01-24T08:24:50.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>在经过两个月<del>学习</del>（拖延）和<del>修改</del>（拖延）后，我的博客终于算是能够上线了。<br><a id="more"></a></p>
+<h2 id="一"><a href="#一" class="headerlink" title="一"></a>一</h2><blockquote>
+<p>既然是随笔一篇，标题便写作数字吧。  </p>
+</blockquote>
+<p>了解博客还是从去年（2016）开始，一门课程的老师在开课时执着的要求所有人写好每一周的个人博客作为工作学习记录（虽然，当时我就觉得这种要求对学生很不现实）。他推荐的是Cnblogs，讲道理内容是很不错的，但界面啊，真是伤眼睛，画风停留在不知多少年前，主题找不到一个能看的过去的，冗余功能倒是一大堆。所以，此博客当作文献参考来搜时是很好的，自己要写，还是应该找一个能够让人看着屏幕不生恶感的来入坑。<br>之后在看一篇介绍tensorflow文章的时候跳转到了别人用Github自建的博客，界面简洁精致的让我眼前一亮，这时我就觉得这就是我想要写的博客，一个尊重读者的博客就要有漂亮的界面。<br>但想建一个能自己控制的网站，听起来就不是件容易的事，尤其是对没有任何建站经验的人，但本着一个程序员不会先瞎搞的精神，Zhihu吧（感谢Zhihu）。  搜到的结果就是今天看到的Hexo，真是一个好东西（感谢<a href="http://hexo.io" target="_blank" rel="external">Hexo</a>项目）。  </p>
+<h2 id="二"><a href="#二" class="headerlink" title="二"></a>二</h2><blockquote>
+<p>准备更新一些建站的经历在这里，但我这么懒，可能要好久才会把坑填完。  </p>
+</blockquote>
+<h3 id="1-Github"><a href="#1-Github" class="headerlink" title="1 Github"></a>1 Github</h3><p>首先要准备一个GitHub账号，并建一个名字为<code>yourname.github.io</code>的仓库作为Page服务存放的地方。<br>怎么用Git和注册Github这件事已经有太多人写了太多重复的文章来介绍了，本着原创只创造新知识的精神（实际是懒得写）我就仅安利几个可以提供参考的网站：  </p>
+<ol>
+<li><a href="http://zhihu.com" target="_blank" rel="external">知乎</a>  </li>
+<li><a href="http://jianshu.com" target="_blank" rel="external">简书</a></li>
+</ol>
+<h3 id="2-Hexo"><a href="#2-Hexo" class="headerlink" title="2 Hexo"></a>2 Hexo</h3><p>首先介绍一下我的写作环境，一台Mac。当然，你要是Windows也应该是很方便可以用Hexo的（看别人的教程是这样的），不过有一些坑可能不一样。<br>Hexo官方给的介绍其实是有中文版的，不过既然说好了要介绍怎么搭，总不能全给个链接就算了，故我还是简单的写一些安装的建议吧。<br>安装依赖：  </p>
+<ul>
+<li>Xcode Command Line Tools</li>
+<li>Node.js</li>
+<li>Git</li>
+</ul>
+<p>第一个命令行工具如果你的电脑里没有，那你应该是新接触的Mac或者自己不写程序，官方说是要安一个Xcode之后再安装，不过我觉得如果你使用过HomeBrew，好像安一些必备的软件的时候就会自己把Command Line Tools安好。<br>假设你已经解决了第一个，那么我们来看第三个（为什么不是第二个呢？），Git这个东西Mac上是自带的，所以不用担心，但如果你的电脑里没有（鬼知道你怎么会弄没），你可以通过在终端里键入<code>$brew install git</code>安装（默认已经有了HomeBrew）。<br>现在来说第二个，这个应该是大多数用户需要做的唯一一件事：</p>
+<ol>
+<li>安装nvm<figure class="highlight plain"><table><tr><td class="code"><pre><div class="line">$ curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.0/install.sh | bash</div></pre></td></tr></table></figure></li>
+<li>重启终端 安装Node.js<figure class="highlight plain"><table><tr><td class="code"><pre><div class="line">$ nvm install stable</div></pre></td></tr></table></figure>
+</li>
+</ol>
+<p>这些做完之后，我们就可以愉快的安装Hexo了<br><figure class="highlight plain"><table><tr><td class="code"><pre><div class="line">$ npm install -g hexo-cli</div></pre></td></tr></table></figure></p>
+<h3 id="3-Next"><a href="#3-Next" class="headerlink" title="3 Next"></a>3 Next</h3><p>Hexo里面有很多漂亮的主题，我选的事一款简单但集成度挺高的Next主题，下面就来介绍一下Next怎么用。 </p>
+<p>未完待续。。。  </p>
+<h2 id="三"><a href="#三" class="headerlink" title="三"></a>三</h2><blockquote>
+<p>二没写完也是可以写三的。。。</p>
+</blockquote>
+<p>有了博客呢，就要好好的写，切实当作一个记录知识和问题的地方，欢迎看到的各位老师童鞋批评指正（呵呵呵，唯一被我折腾后保留的就是评论区了，没评论就尴尬了）</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;在经过两个月&lt;del&gt;学习&lt;/del&gt;（拖延）和&lt;del&gt;修改&lt;/del&gt;（拖延）后，我的博客终于算是能够上线了。&lt;br&gt;
+    
+    </summary>
+    
+    
+      <category term="建站" scheme="http://blog.yoccio.pw/tags/%E5%BB%BA%E7%AB%99/"/>
+    
+      <category term="随笔" scheme="http://blog.yoccio.pw/tags/%E9%9A%8F%E7%AC%94/"/>
+    
+  </entry>
+  
+</feed>

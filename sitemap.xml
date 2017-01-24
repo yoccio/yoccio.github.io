@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <url>
+    <loc>http://blog.yoccio.pw/2017/01/24/hello-world/</loc>
+    
+    <lastmod>2017-01-24T08:24:50.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://blog.yoccio.pw//404.html</loc>
+    
+    <lastmod>2017-01-24T05:58:46.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://blog.yoccio.pw/about/index.html</loc>
+    
+    <lastmod>2017-01-24T05:49:07.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://blog.yoccio.pw/categories/index.html</loc>
+    
+    <lastmod>2017-01-24T04:09:27.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://blog.yoccio.pw/tags/index.html</loc>
+    
+    <lastmod>2017-01-24T04:08:19.000Z</lastmod>
+    
+  </url>
+  
+</urlset>
