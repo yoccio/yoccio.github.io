@@ -4,6 +4,25 @@
 
     
   <url>
+    <loc>http://blog.yoccio.pw/2017/01/24/hello-world/</loc>
+    <lastmod>2017-01-25T05:27:49.000Z</lastmod>
+    <data>
+        <display>
+        <title>世界 你好</title>
+        <pubTime>2017-01-24T02:53:36.000Z</pubTime>
+        
+        <tag>建站</tag>
+         
+        <tag>随笔</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://blog.yoccio.pw/2017/01/25/Note-Progit/</loc>
     <lastmod>2017-01-25T05:25:22.000Z</lastmod>
     <data>
@@ -20,25 +39,6 @@
     </url>
 
     
-    
-  <url>
-    <loc>http://blog.yoccio.pw/2017/01/24/hello-world/</loc>
-    <lastmod>2017-01-24T08:24:50.000Z</lastmod>
-    <data>
-        <display>
-        <title>世界 你好</title>
-        <pubTime>2017-01-24T02:53:36.000Z</pubTime>
-        
-        <tag>建站</tag>
-         
-        <tag>随笔</tag>
-         
-         
-           
-        </display>
-    </data>
-    </url>
-
     
     
     
